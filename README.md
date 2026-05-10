@@ -1,4 +1,7 @@
 # AI-Based Text Summarization Platform
+## Copyright
+© 2026 Supriya Jadhav. All rights reserved.
+
 
 ## 📌 Overview
 This project is a full-stack web application that automatically summarizes long text or PDF documents into concise, meaningful insights using AI/NLP models.
