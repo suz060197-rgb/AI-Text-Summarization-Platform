@@ -1,0 +1,29 @@
+{
+  "name": "ai-text-summarization-platform",
+  "version": "1.0.0",
+  "description": "Full-stack AI text and PDF summarization platform with React, Express, OpenAI, and HuggingFace integration hooks.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace backend\" \"npm run dev --workspace frontend\"",
+    "start": "npm run start --workspace backend",
+    "test": "npm run test --workspace backend",
+    "lint": "npm run lint --workspace frontend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "ai",
+    "summarization",
+    "react",
+    "express",
+    "openai",
+    "pdf"
+  ],
+  "license": "MIT"
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "19f11fe5-e342-486f-9b63-4c5c777e9ec5",
+    "name": "Student User",
+    "email": "student-1778417217381@example.com",
+    "passwordHash": "28d9dac65164d0bc919e467db9b03122:990fb11699462c3bff20a6e69a220d9c87154166464a031455899c73d772890ecbc5efcc43be85256cab9c5753444a04fad40cecae7b86dd115833c62a0d356a",
+    "createdAt": "2026-05-10T12:46:57.445Z"
+  },
+  {
+    "id": "be8956b0-dd9d-43c9-9b2d-145eaeaeca7e",
+    "name": "Student User",
+    "email": "student-1778417301344@example.com",
+    "passwordHash": "29d1392cb6f0dd744a9491a2999962cf:284d2e79d1360b16ebe33a6ebac3fc63d0d4e99b43c644dfd407a33b5151a9570c07e00d0e72ce5cf89531ece05f8aa3c98236829db999f2630cc6e2b449421d",
+    "createdAt": "2026-05-10T12:48:21.399Z"
+  }
+]

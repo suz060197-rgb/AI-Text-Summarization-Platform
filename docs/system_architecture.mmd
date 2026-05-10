@@ -1,0 +1,13 @@
+flowchart LR
+  User[User Browser] --> Frontend[React + Tailwind Frontend]
+  Frontend -->|JSON or multipart form data| Backend[Express Backend]
+  Backend --> Routes[Summarization Routes]
+  Routes --> Services[Business Services]
+  Services --> PDF[pdf-parse PDF Extraction]
+  Services --> Processing[Text Preprocessing + Keywords]
+  Processing --> AI[AI Engine Layer]
+  AI --> OpenAI[OpenAI API]
+  AI --> HF[Optional HuggingFace Script]
+  OpenAI --> Backend
+  HF --> Backend
+  Backend -->|Summary, keywords, stats| Frontend
